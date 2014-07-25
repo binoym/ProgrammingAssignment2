@@ -11,7 +11,7 @@ i <<- NULL
 }
 ## get the value of the matrix
 get <- function() x
-## set the inverse of the matrix
+## set the inverse of the matrix 
 setinverse <- function(solve) i <<- solve
 getinverse <- function() i
 ## get the inverse of the matrix
